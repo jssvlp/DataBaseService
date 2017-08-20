@@ -45,7 +45,9 @@ namespace RegistrationSystemChanger
 
             );
             sqlherramientas.Ejecutar(Query);
-            tiempo = new Timer();
+            FileWriter fw = new FileWriter();
+            fw.WriteFile("DATOS MODIFICADOS CORRECTAMENTE");
+            
         }
 
         private void EscribirLog(string filename)
