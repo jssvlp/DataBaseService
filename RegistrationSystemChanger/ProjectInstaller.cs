@@ -15,5 +15,15 @@ namespace RegistrationSystemChanger
         {
             InitializeComponent();
         }
+
+        private void ServicioModificacionRegistro_BeforeInstall(object sender, InstallEventArgs e)
+        {
+
+        }
+
+        private void Configurar()
+        {
+
+        }
     }
 }

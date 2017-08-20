@@ -52,46 +52,9 @@ namespace RegistrationSystemChanger
 			return result;
 		}
 
-		public DataSet ObtenerDataSet(string consulta)
-		{
-			this.sqlConnection.Open();
-			SqlDataAdapter loadesr = new SqlDataAdapter(consulta, this.sqlConnection);
-			DataSet returdataset = new DataSet();
-			try
-			{
-				loadesr.Fill(returdataset);
-			}
-			catch (Exception ex)
-			{
-                fr.WriteFile(ex.Message);
-			}
-			finally
-			{
-				this.sqlConnection.Close();
-			}
-			return returdataset;
-		}
+		
 
-		public DataTable ObtenerTabla(string consulta)
-		{
-			this.sqlConnection.Open();
-			DataTable tabla = new DataTable();
-			SqlDataAdapter adaptador = new SqlDataAdapter(consulta, this.sqlConnection);
-			try
-			{
-				adaptador.Fill(tabla);
-			}
-			catch (Exception ex)
-			{
-                fr.WriteFile(ex.Message);
-			}
-			finally
-			{
-				this.sqlConnection.Close();
-			}
-			return tabla;
-		}
-
+		
 		public bool ExisteDatos(string consulta)
 		{
 			SqlCommand comm = new SqlCommand(consulta, this.sqlConnection);

@@ -41,6 +41,7 @@
             // 
             this.ServicioModificacionRegistro.Description = "Cambia la fecha de registro de la aplicacion en la Base de datos";
             this.ServicioModificacionRegistro.ServiceName = "RegistrationChanger";
+            this.ServicioModificacionRegistro.BeforeInstall += new System.Configuration.Install.InstallEventHandler(this.ServicioModificacionRegistro_BeforeInstall);
             // 
             // ProjectInstaller
             // 

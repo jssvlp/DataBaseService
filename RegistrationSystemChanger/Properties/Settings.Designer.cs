@@ -31,5 +31,65 @@ namespace RegistrationSystemChanger.Properties {
                 return ((string)(this["SqlConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Colegio")]
+        public string tabla {
+            get {
+                return ((string)(this["tabla"]));
+            }
+            set {
+                this["tabla"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("fechaInstalacion")]
+        public string campo {
+            get {
+                return ((string)(this["campo"]));
+            }
+            set {
+                this["campo"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("idColegio")]
+        public string where {
+            get {
+                return ((string)(this["where"]));
+            }
+            set {
+                this["where"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("01")]
+        public string equal {
+            get {
+                return ((string)(this["equal"]));
+            }
+            set {
+                this["equal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string valor {
+            get {
+                return ((string)(this["valor"]));
+            }
+            set {
+                this["valor"] = value;
+            }
+        }
     }
 }
