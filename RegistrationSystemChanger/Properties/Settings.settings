@@ -3,13 +3,13 @@
   <Profiles />
   <Settings>
     <Setting Name="SqlConnectionString" Type="System.String" Scope="Application">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">Data Source=.;Initial Catalog=Prueba;Integrated Security=True</Value>
     </Setting>
     <Setting Name="tabla" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Colegio</Value>
+      <Value Profile="(Default)">Colegios</Value>
     </Setting>
     <Setting Name="campo" Type="System.String" Scope="User">
-      <Value Profile="(Default)">fechaInstalacion</Value>
+      <Value Profile="(Default)">fechaRegistro</Value>
     </Setting>
     <Setting Name="where" Type="System.String" Scope="User">
       <Value Profile="(Default)">idColegio</Value>

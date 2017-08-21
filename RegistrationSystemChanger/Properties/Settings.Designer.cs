@@ -25,7 +25,7 @@ namespace RegistrationSystemChanger.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=Prueba;Integrated Security=True")]
         public string SqlConnectionString {
             get {
                 return ((string)(this["SqlConnectionString"]));
@@ -34,7 +34,7 @@ namespace RegistrationSystemChanger.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Colegio")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Colegios")]
         public string tabla {
             get {
                 return ((string)(this["tabla"]));
@@ -46,7 +46,7 @@ namespace RegistrationSystemChanger.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("fechaInstalacion")]
+        [global::System.Configuration.DefaultSettingValueAttribute("fechaRegistro")]
         public string campo {
             get {
                 return ((string)(this["campo"]));

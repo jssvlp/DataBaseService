@@ -11,7 +11,7 @@ namespace RegistrationSystemChanger
     {
         public void WriteFile(String texto)
         {
-            string path = string.Format("{0}/{1}", "C://", "Log.txt");
+            string path = string.Format("{0}/{1}", "C:", "Log.txt");
             try
             {
                 if (!File.Exists(path))
